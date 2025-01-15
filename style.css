@@ -1,4 +1,4 @@
-onClick="onClick()"onClick="onClick()"onClick="onClick()"onClick="onClick()"onClick="onClick()"onClick="onClick()"@charset "UTF-8";
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -62,8 +62,6 @@ table {
 [class*="col-"] {
     float: left;
     width: 100%;
-	/* Ter demonstratie hebben kolommen een border, doe maar weg voor je eigen werk */
-	border: solid 1px grey;
 }
 
 /* Voor MOBIEL */
@@ -81,14 +79,10 @@ table {
     .col-m-9 {width: 75%;}
     .col-m-10 {width: 83.33%;}
     .col-m-11 {width: 91.66%;}
-    .col-m-12 {width: 100%;}
+    .col-12 {width: 100%; background-color:#2F3F91; height: 40px; color: #451413; text-align: center; vertical-align: middle; line-height: 40px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 18px}
 	.picto {width: 100%; height: 180px}
 	
-	#blueonmobile{
-		background-color: blue;
-		color:white;
-		height: 50vh;
-	}
+	
 	/* MOBIELE code binnen deze accolades van het @media stuk */
 }
 
@@ -104,11 +98,11 @@ table {
     .col-5 {width: 41.66%;}
     .col-6 {width: 50%;}
     .col-7 {width: 58.33%;}
-    .col-8 {width: 66.66%;}
+    .col-8 {width: 66.66%; margin-left: 15%}
     .col-9 {width: 75%;}
     .col-10 {width: 83.33%;}
     .col-11 {width: 91.66%;}
-    .col-12 {width: 100%;}
+    .col-12 {width: 100%; background-color:#51F5ED; height: 40px; color: #451413; text-align: center; vertical-align: middle; line-height: 40px; font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"; font-size: 18px}
 	.picto {width: 180px}
 	
 	/* DESKTOP code binnen deze accolades van het @media stuk */
